@@ -13,7 +13,14 @@ const storage = createStorage({
 });
 ```
 
-## Usage for Nuxt and/or ISR
+## To Do
+
+- [] Add options to all commands to better support more complex S3 options
+- [] Return the user-defined metadata from `getMeta`
+- [] Investigate implementing `watch`
+- [] Investigate effort to implement using the http API instead of sdk per [#11](https://github.com/unjs/unstorage/issues/11)
+
+## Ideas for usage with Nuxt and/or ISR
 
 Two options worth considering wrt this driver and Nuxt ISR:
 
